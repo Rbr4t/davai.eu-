@@ -9,3 +9,6 @@ var intervalId = window.setInterval(function(){
   }
   finally{}
 }, 200);
+
+// uus kood, vajuta lihtsalt järgmisele ülesandele
+params = new URLSearchParams(document.location.search.substring(1)); playgame($('.user_photo').attr('du'), params.get('igra'), $('#game_two_results').attr('id-game'), '.game2_inner')
